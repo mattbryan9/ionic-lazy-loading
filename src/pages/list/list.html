@@ -18,5 +18,7 @@
   </ion-list>
   <div *ngIf="planet" padding>
     You navigated here from <b>{{planet.name}}</b>
+  <article [title]="planet.name" [text]="planet.climate + ' ' + planet.terrain">
+  </article>
   </div>
 </ion-content>

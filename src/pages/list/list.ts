@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController, NavParams, IonicPage } from 'ionic-angular';
 
-import { PlanetService } from '../../services/planet/planet.service';
+import { PlanetService } from '../../data/planet/planet.service';
 
 @IonicPage()
 @Component({
